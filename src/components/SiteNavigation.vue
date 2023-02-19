@@ -14,10 +14,6 @@
                  duration-150 cursor-pointer" 
                  @click="toggleModal">
                      </i>
-                <i class="fa-solid fa-plus text-xl
-                 hover:text-weather-secondary 
-                 duration-150 cursor-pointer">
-                 </i>
             </div>
 
 
@@ -39,18 +35,11 @@
                     Select a city within the results, this will take
                     you to the current weather for your selection.
                     </li>
-                    <li>
-                    Track the city by clicking on the "+" icon in the
-                    top right. This will save the city to view at a
-                    later time on the home page.
-                    </li>
                 </ol>
 
                 <h2 class="text-2xl">Removing a city</h2>
                 <p>
-                    If you no longer wish to track a city, simply select
-                    the city within the home page. At the bottom of the
-                    page, there will be am option to delete the city.
+                    If you no longer wish to track a city, simply clear it's name.
                 </p>
                 </div>
             </BaseModal>
