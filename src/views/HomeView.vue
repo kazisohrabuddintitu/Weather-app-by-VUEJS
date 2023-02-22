@@ -18,10 +18,10 @@
       bg-weather-white text-black">
       <h2 class="city">Weather in </h2>
       <h1 class="temp">°C</h1>
-      <div class="flex">
-        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
-        <div class="description">Cloudy</div>
+      <div class="img ">  
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon " /> 
       </div>
+      <div class="description ">Cloudy</div>
       <div class="humidity">Humidity: %</div>
       <div class="wind">Wind speed:  km/h</div>
     </div>
